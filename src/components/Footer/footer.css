@@ -1,0 +1,95 @@
+
+
+.footer-up{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: #3d464d;
+    color: #fff;
+    padding: 50px;
+    line-height: 30px;
+}
+.footer-right{
+    width: 24%;
+    text-align: center;
+     line-height: 30px;
+
+}
+.footer-right h1{
+    font-size: 25px;
+}
+.footer-right > * {
+    margin-bottom: 25px;
+}
+.footer-meddile{
+    text-align: center;
+    
+}
+.footer-meddile h1{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.footer-meddile ul{
+    list-style: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.footer-meddile ul li{
+    padding: 8px;
+}
+.footer-meddile ul li:hover{
+   color: var(--main-color);
+}
+.footer-social{
+    text-align: center;
+}
+.footer-social ul{
+    list-style: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.footer-social h1{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.footer-social ul li{
+    padding: 8px;
+}
+.footer-social ul li:hover{
+    color: var(--main-color);
+
+}
+.footer-left{
+    text-align: center;
+}
+.footer-left h1{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.footer-left > * {
+    margin-bottom: 40px;
+}
+.footer-left input{
+    padding: 13px;
+}
+.footer-left button{
+    padding: 14px;
+  background-color: var(--main-color);
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+  border: none;
+  font-style: 20px;
+}
+.footer-down{
+    background-color:  #3d464d;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+  
+ .footer-down h4{
+     color: #fff;
+    }

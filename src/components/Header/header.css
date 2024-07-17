@@ -1,0 +1,141 @@
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    height: 70vh;
+}
+.header-left{
+    width: 65%;
+}
+.header-right{
+    width: 30%;
+}
+.header-left-man{
+    background-image: linear-gradient(rgba(20 , 20 , 20 , 0.7),
+    rgba(20 , 20 , 20 , 0.7))
+     , url(../../assets/img/carousel-1.jpg);
+    background-size: cover;
+    height: 400px;
+}
+.header-left-Woman{
+    background-image: linear-gradient(rgba(20 , 20 , 20 , 0.7),
+    rgba(20 , 20 , 20 , 0.7))
+     , url(../../assets/img/carousel-2.jpg);
+    background-size: cover;
+    height: 400px;
+}
+.header-left-Kids{
+    background-image: linear-gradient(rgba(20 , 20 , 20 , 0.7),
+    rgba(20 , 20 , 20 , 0.7))
+     , url(../../assets/img/carousel-3.jpg);
+    background-size: cover;
+    height: 400px;
+}
+.h{
+    text-align: center;
+    width: 80%;
+    margin: 50px auto;
+    color:#fff;
+}
+.h > * {
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+.h h2{
+    font-size: 30px;
+    letter-spacing: 5px;
+   
+  
+}
+.h p{
+    color: #ddd;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 50%;
+    margin-left: 160px;
+}
+.header button{
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.header button:hover{
+    background-color: var(--main-color);
+}
+.header-right-up{
+    background-image: linear-gradient(rgba(20 , 20 , 20 , 0.6),
+    rgba(20 , 20 , 20 , 0.6)) 
+    , url(../../assets/img/offer-1.jpg);
+    background-size: cover;
+    height: 195px;
+}
+.header-right-down{
+    background-image: linear-gradient(rgba(20 , 20 , 20 , 0.6),
+    rgba(20 , 20 , 20 , 0.6)) 
+    , url(../../assets/img/offer-2.jpg);
+    background-size: cover;
+    height: 195px;
+}
+.header-right-up > * {
+    text-align: center;
+    color: #fff;
+   margin-top: 15px;
+   padding-top: 20px;
+}
+.header-right-up{
+    margin-bottom: 15px;
+}
+.header-right-up button{
+    margin-left: 110px;
+}
+.header-right-up h4{
+    margin-top: 30px;
+}
+.header-right{
+    margin-bottom: 15px;
+}
+.header-right-down > * {
+    text-align: center;
+    color: #fff;
+   margin-top: 15px;
+   padding-top: 20px;
+}
+.header-right-down{
+    margin-bottom: 15px;
+}
+.header-right-down button{
+    margin-left: 110px;
+}
+/* 
+
+@media (max-width: 400px) {
+     .header-left{
+        display: block;
+        width: 100%;
+        text-align: center;
+     }
+     .header-left div{
+        width: 700px;
+     }
+     .header-left div > * {
+          text-align: center;
+     }
+     .header-left .h > *{
+        text-align: center;
+     }
+     .header-left h1{
+     font-size: 20px;
+     }
+     .header-left p{
+        font-size: 16px;
+        width: 50%;
+     }
+} */

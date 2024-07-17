@@ -1,0 +1,79 @@
+
+.watchlist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.watchlist-products{
+    width: 30%;
+    padding: 10px;
+    background-color: #fff;
+    text-align: center;
+}
+.watchlist-products > * {
+    margin-bottom: 20px;
+}
+.watchlist-products img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+.watchlist-products h2{
+    color: var(--main-color);
+}
+.watchlist-products h3{
+    color: gray;
+    font-size: 25px;
+}
+.watchlist-products div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.btn-a{
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 6px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 10px;
+
+}
+.btn-a:hover{
+    background-color: rgb(134, 134, 35);
+    color: #fff;
+    padding: 6px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 10px;
+
+}
+.btn-b:hover{
+    background-color: rgb(125, 40, 40);
+    color: #fff;
+    padding: 6px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 10px;
+
+}
+.btn-b{
+    background-color: red;
+    color: #fff;
+    padding: 6px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 10px;
+
+}

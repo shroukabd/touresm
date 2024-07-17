@@ -1,0 +1,94 @@
+
+nav{
+    background-color:#3d464d;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 55554;
+}
+.nav-left span{
+  color: var(--main-color);
+ 
+}
+.nav-meddile ul{
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+.nav-meddile ul a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.nav-meddile ul a{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: 0.5s;
+}
+.nav-meddile ul a:hover{
+    color: var(--main-color);
+}
+.nav-right{
+    display: flex;
+    gap: 30px;
+}
+.nav-icon{
+    font-size: 20px;
+    color: var(--main-color);
+}
+
+.products-link{
+    position: relative;
+}
+.products-toogle{
+    position: absolute;
+    top: 45px;
+    left: -30px;
+    background-color: #ccc;
+    padding: 30px;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.products-toogle a{
+    color:  #000 !important;
+    font-size: 18px;
+    transition: 0.5s;
+    padding: 10px;
+    border: 2px solid #ddd;
+ 
+}
+.products-toogle a:hover{
+    background-color: var(--main-color) !important;
+    padding: 10px;
+}
+
+
+@media (max-width: 400px) {
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    
+    .nav-left{
+        font-size: 15px;
+    }
+      .nav-meddile{
+        display: none;
+      }
+      .nav-right{
+        font-size: 15px;
+      }
+      .nav-icon{
+        font-size: 15px;
+    }
+
+}

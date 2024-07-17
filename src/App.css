@@ -1,0 +1,23 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  background-color: #eee;
+}
+:root{
+  --main-color : #cece2b;
+}
+.container{
+  width: 90%;
+  margin: 100px auto;
+}
+.tittle{
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 50px;
+  color: var(--main-color);
+}
